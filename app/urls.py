@@ -23,4 +23,6 @@ urlpatterns = [
     # User management
     path('accounts/', include('allauth.urls')),
 
+    # Pages
+    path('', include('pages.urls')),
 ]
